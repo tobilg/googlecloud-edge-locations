@@ -5,8 +5,8 @@ Approximation of Google Cloud edge locations, usable via a lookup mechanism.
 
 If you're here for the plain data, have a look at
 
-* [List of googlecloud Edge Locations (as CSV)](#csv-list) 
-* [List of googlecloud Edge Locations (as JSON)](#json-lookup)
+* [List of Google Cloud Edge Locations (as CSV)](#csv-list) 
+* [List of Google Cloud Edge Locations (as JSON)](#json-lookup)
 
 ## Installation
 To install, you can do the following:
