@@ -6,7 +6,7 @@
     "countryCode": "US",
     "latitude": 38.94449997,
     "longitude": -77.45580292,
-    "count": 2
+    "count": 1
   },
   "ATL": {
     "city": "Atlanta",
@@ -15,7 +15,7 @@
     "countryCode": "US",
     "latitude": 33.6367,
     "longitude": -84.428101,
-    "count": 3
+    "count": 1
   },
   "MDW": {
     "city": "Chicago",
@@ -24,7 +24,16 @@
     "countryCode": "US",
     "latitude": 41.785999,
     "longitude": -87.752403,
-    "count": 2
+    "count": 1
+  },
+  "CMH": {
+    "city": "Columbus",
+    "state": "Ohio",
+    "country": "United States",
+    "countryCode": "US",
+    "latitude": 39.998001,
+    "longitude": -82.891899,
+    "count": 1
   },
   "DEN": {
     "city": "Denver",
@@ -33,7 +42,7 @@
     "countryCode": "US",
     "latitude": 39.861698150635,
     "longitude": -104.672996521,
-    "count": 2
+    "count": 1
   },
   "DAL": {
     "city": "Dallas",
@@ -42,7 +51,7 @@
     "countryCode": "US",
     "latitude": 32.847099,
     "longitude": -96.851799,
-    "count": 3
+    "count": 1
   },
   "LAX": {
     "city": "Los Angeles",
@@ -51,7 +60,7 @@
     "countryCode": "US",
     "latitude": 33.942501,
     "longitude": -118.407997,
-    "count": 3
+    "count": 1
   },
   "MIA": {
     "city": "Miami",
@@ -60,7 +69,7 @@
     "countryCode": "US",
     "latitude": 25.79319953918457,
     "longitude": -80.29060363769531,
-    "count": 2
+    "count": 1
   },
   "YUL": {
     "city": "Montreal",
@@ -78,7 +87,7 @@
     "countryCode": "US",
     "latitude": 40.639801,
     "longitude": -73.7789,
-    "count": 3
+    "count": 1
   },
   "PAO": {
     "city": "Palo Alto",
@@ -105,7 +114,7 @@
     "countryCode": "US",
     "latitude": 47.529998779296875,
     "longitude": -122.302001953125,
-    "count": 3
+    "count": 1
   },
   "QRO": {
     "city": "Querétaro",
@@ -114,7 +123,7 @@
     "countryCode": "MX",
     "latitude": 20.6173,
     "longitude": -100.185997,
-    "count": 2
+    "count": 1
   },
   "YYZ": {
     "city": "Toronto",
@@ -123,7 +132,7 @@
     "countryCode": "CA",
     "latitude": 43.6772003174,
     "longitude": -79.63059997559999,
-    "count": 2
+    "count": 1
   },
   "BOG": {
     "city": "Bogota",
@@ -132,7 +141,7 @@
     "countryCode": "CO",
     "latitude": 4.70159,
     "longitude": -74.1469,
-    "count": 2
+    "count": 1
   },
   "EZE": {
     "city": "Buenos Aires",
@@ -168,7 +177,7 @@
     "countryCode": "BR",
     "latitude": -23.435556411743164,
     "longitude": -46.47305679321289,
-    "count": 5
+    "count": 1
   },
   "AMS": {
     "city": "Amsterdam",
@@ -177,7 +186,7 @@
     "countryCode": "NL",
     "latitude": 52.308601,
     "longitude": 4.76389,
-    "count": 5
+    "count": 1
   },
   "BUD": {
     "city": "Budapest",
@@ -204,7 +213,7 @@
     "countryCode": "IE",
     "latitude": 53.421299,
     "longitude": -6.27007,
-    "count": 2
+    "count": 1
   },
   "FRA": {
     "city": "Frankfurt am Main",
@@ -213,7 +222,7 @@
     "countryCode": "DE",
     "latitude": 50.033333,
     "longitude": 8.570556,
-    "count": 2
+    "count": 1
   },
   "HAM": {
     "city": "Hamburg",
@@ -222,7 +231,7 @@
     "countryCode": "DE",
     "latitude": 53.630401611328,
     "longitude": 9.9882297515869,
-    "count": 3
+    "count": 1
   },
   "KBP": {
     "city": "Kiev",
@@ -231,7 +240,7 @@
     "countryCode": "UA",
     "latitude": 50.345001220703125,
     "longitude": 30.894699096679688,
-    "count": 3
+    "count": 1
   },
   "LIS": {
     "city": "Lisbon",
@@ -249,7 +258,7 @@
     "countryCode": "GB",
     "latitude": 51.874698638916016,
     "longitude": -0.36833301186561584,
-    "count": 7
+    "count": 1
   },
   "MAD": {
     "city": "Madrid",
@@ -258,7 +267,7 @@
     "countryCode": "ES",
     "latitude": 40.471926,
     "longitude": -3.56264,
-    "count": 2
+    "count": 1
   },
   "MRS": {
     "city": "Marseille",
@@ -276,7 +285,7 @@
     "countryCode": "IT",
     "latitude": 45.6306,
     "longitude": 8.72811,
-    "count": 2
+    "count": 1
   },
   "MUC": {
     "city": "Munich",
@@ -294,7 +303,7 @@
     "countryCode": "RU",
     "latitude": 55.553299,
     "longitude": 38.150002,
-    "count": 3
+    "count": 1
   },
   "CDG": {
     "city": "Paris",
@@ -303,7 +312,7 @@
     "countryCode": "FR",
     "latitude": 49.012798,
     "longitude": 2.55,
-    "count": 8
+    "count": 1
   },
   "PRG": {
     "city": "Prague",
@@ -330,7 +339,7 @@
     "countryCode": "RU",
     "latitude": 59.80030059814453,
     "longitude": 30.262500762939453,
-    "count": 2
+    "count": 1
   },
   "SOF": {
     "city": "Sofia",
@@ -348,7 +357,7 @@
     "countryCode": "SE",
     "latitude": 59.651901245117,
     "longitude": 17.918600082397,
-    "count": 3
+    "count": 1
   },
   "WMI": {
     "city": "Warsaw",
@@ -357,7 +366,7 @@
     "countryCode": "PL",
     "latitude": 52.451099,
     "longitude": 20.6518,
-    "count": 2
+    "count": 1
   },
   "ZAG": {
     "city": "Zagreb",
@@ -375,7 +384,7 @@
     "countryCode": "CH",
     "latitude": 47.464699,
     "longitude": 8.54917,
-    "count": 4
+    "count": 1
   },
   "FJR": {
     "city": "Fujairah",
@@ -384,7 +393,7 @@
     "countryCode": "AE",
     "latitude": 25.112222,
     "longitude": 56.324167,
-    "count": 3
+    "count": 1
   },
   "MCT": {
     "city": "Muscat",
@@ -402,7 +411,7 @@
     "countryCode": "IN",
     "latitude": 12.990005493164062,
     "longitude": 80.16929626464844,
-    "count": 3
+    "count": 1
   },
   "HKG": {
     "city": "Hong Kong",
@@ -411,7 +420,7 @@
     "countryCode": "HK",
     "latitude": 22.308901,
     "longitude": 113.915001,
-    "count": 3
+    "count": 1
   },
   "CGK": {
     "city": "Jakarta",
@@ -420,7 +429,7 @@
     "countryCode": "ID",
     "latitude": -6.1255698204,
     "longitude": 106.65599823,
-    "count": 4
+    "count": 1
   },
   "KUL": {
     "city": "Kuala Lumpur",
@@ -429,7 +438,7 @@
     "countryCode": "MY",
     "latitude": 2.745579957962,
     "longitude": 101.70999908447,
-    "count": 2
+    "count": 1
   },
   "DEL": {
     "city": "New Delhi",
@@ -438,7 +447,7 @@
     "countryCode": "IN",
     "latitude": 28.5665,
     "longitude": 77.103104,
-    "count": 3
+    "count": 1
   },
   "KIX": {
     "city": "Osaka",
@@ -447,7 +456,7 @@
     "countryCode": "JP",
     "latitude": 34.42729949951172,
     "longitude": 135.24400329589844,
-    "count": 2
+    "count": 1
   },
   "BOM": {
     "city": "Mumbai",
@@ -456,7 +465,7 @@
     "countryCode": "IN",
     "latitude": 19.0886993408,
     "longitude": 72.8678970337,
-    "count": 2
+    "count": 1
   },
   "ICN": {
     "city": "Seoul",
@@ -465,7 +474,7 @@
     "countryCode": "KR",
     "latitude": 37.46910095214844,
     "longitude": 126.45099639892578,
-    "count": 4
+    "count": 1
   },
   "SIN": {
     "city": "Singapore",
@@ -474,7 +483,7 @@
     "countryCode": "SG",
     "latitude": 1.35019,
     "longitude": 103.994003,
-    "count": 3
+    "count": 1
   },
   "TPE": {
     "city": "Taipei",
@@ -483,7 +492,7 @@
     "countryCode": "TW",
     "latitude": 25.0777,
     "longitude": 121.233002,
-    "count": 4
+    "count": 1
   },
   "NRT": {
     "city": "Tokyo",
@@ -492,7 +501,7 @@
     "countryCode": "JP",
     "latitude": 35.764702,
     "longitude": 140.386002,
-    "count": 7
+    "count": 1
   },
   "SYD": {
     "city": "Sydney",
@@ -501,7 +510,7 @@
     "countryCode": "AU",
     "latitude": -33.94609832763672,
     "longitude": 151.177001953125,
-    "count": 3
+    "count": 1
   },
   "MEL": {
     "city": "Melbourne",
@@ -510,7 +519,7 @@
     "countryCode": "AU",
     "latitude": -37.673302,
     "longitude": 144.843002,
-    "count": 2
+    "count": 1
   },
   "JNB": {
     "city": "Johannesburg",
@@ -537,6 +546,6 @@
     "countryCode": "NG",
     "latitude": 6.5773701667785645,
     "longitude": 3.321160078048706,
-    "count": 2
+    "count": 1
   }
 }
