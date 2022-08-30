@@ -39,13 +39,13 @@ const location = el.lookup('IAD');
 const invalid = el.lookup('FOO'); // returns false
 
 // Get edge location count
-const locationCount = el.getLocationCount(); // returns 60
+const locationCount = el.getLocationCount(); // returns 61
 
 // Get all edge locations
 const locations = el.getLocations();
 
 // Get PoP count
-const popCount = el.getPoPCount() // returns 147
+const popCount = el.getPoPCount() // returns 61
 ```
 
 ### Browser
@@ -96,67 +96,68 @@ The CSV version of the data can be found at [dist/googlecloud-edge-locations.csv
 
 ```csv
 code,city,state,country,country_code,latitude,longitude,count
-IAD,Ashburn,Virginia,United States,US,38.94449997,-77.45580292,2
-ATL,Atlanta,Georgia,United States,US,33.6367,-84.428101,3
-MDW,Chicago,Illinois,United States,US,41.785999,-87.752403,2
-DEN,Denver,Colorado,United States,US,39.861698150635,-104.672996521,2
-DAL,Dallas,Texas,United States,US,32.847099,-96.851799,3
-LAX,Los Angeles,California,United States,US,33.942501,-118.407997,3
-MIA,Miami,Florida,United States,US,25.79319953918457,-80.29060363769531,2
+IAD,Ashburn,Virginia,United States,US,38.94449997,-77.45580292,1
+ATL,Atlanta,Georgia,United States,US,33.6367,-84.428101,1
+MDW,Chicago,Illinois,United States,US,41.785999,-87.752403,1
+CMH,Columbus,Ohio,United States,US,39.998001,-82.891899,1
+DEN,Denver,Colorado,United States,US,39.861698150635,-104.672996521,1
+DAL,Dallas,Texas,United States,US,32.847099,-96.851799,1
+LAX,Los Angeles,California,United States,US,33.942501,-118.407997,1
+MIA,Miami,Florida,United States,US,25.79319953918457,-80.29060363769531,1
 YUL,Montreal,,Canada,CA,45.470556,-73.740833,1
-JFK,New York,New York,United States,US,40.639801,-73.7789,3
+JFK,New York,New York,United States,US,40.639801,-73.7789,1
 PAO,Palo Alto,California,United States,US,37.461111,-122.115,1
 SJC,San Jose,California,United States,US,37.362598,-121.929001,1
 SJC,Santa Clara,California,United States,US,37.3627777778,-121.9291666667,1
-BFI,Seattle,Washington,United States,US,47.529998779296875,-122.302001953125,3
-QRO,Querétaro,,Mexico,MX,20.6173,-100.185997,2
-YYZ,Toronto,,Canada,CA,43.6772003174,-79.63059997559999,2
-BOG,Bogota,,Colombia,CO,4.70159,-74.1469,2
+BFI,Seattle,Washington,United States,US,47.529998779296875,-122.302001953125,1
+QRO,Querétaro,,Mexico,MX,20.6173,-100.185997,1
+YYZ,Toronto,,Canada,CA,43.6772003174,-79.63059997559999,1
+BOG,Bogota,,Colombia,CO,4.70159,-74.1469,1
 EZE,Buenos Aires,,Argentina,AR,-34.8222,-58.5358,1
 GIG,Rio de Janeiro,,Brazil,BR,-22.8099994659,-43.2505569458,1
 SCL,Santiago,,Chile,CL,-33.393001556396484,-70.78579711914062,1
-GRU,São Paulo,,Brazil,BR,-23.435556411743164,-46.47305679321289,5
-AMS,Amsterdam,,Netherlands,NL,52.308601,4.76389,5
+GRU,São Paulo,,Brazil,BR,-23.435556411743164,-46.47305679321289,1
+AMS,Amsterdam,,Netherlands,NL,52.308601,4.76389,1
 BUD,Budapest,,Hungary,HU,47.42976,19.261093,1
 OTP,Bucharest,,Romania,RO,44.5711111,26.085,1
-DUB,Dublin,,Ireland,IE,53.421299,-6.27007,2
-FRA,Frankfurt am Main,,Germany,DE,50.033333,8.570556,2
-HAM,Hamburg,,Germany,DE,53.630401611328,9.9882297515869,3
-KBP,Kiev,,Ukraine,UA,50.345001220703125,30.894699096679688,3
+DUB,Dublin,,Ireland,IE,53.421299,-6.27007,1
+FRA,Frankfurt am Main,,Germany,DE,50.033333,8.570556,1
+HAM,Hamburg,,Germany,DE,53.630401611328,9.9882297515869,1
+KBP,Kiev,,Ukraine,UA,50.345001220703125,30.894699096679688,1
 LIS,Lisbon,,Portugal,PT,38.7813,-9.13592,1
-LTN,London,,United Kingdom,GB,51.874698638916016,-0.36833301186561584,7
-MAD,Madrid,,Spain,ES,40.471926,-3.56264,2
+LTN,London,,United Kingdom,GB,51.874698638916016,-0.36833301186561584,1
+MAD,Madrid,,Spain,ES,40.471926,-3.56264,1
 MRS,Marseille,,France,FR,43.439271922,5.22142410278,1
-MXP,Milan,,Italy,IT,45.6306,8.72811,2
+MXP,Milan,,Italy,IT,45.6306,8.72811,1
 MUC,Munich,,Germany,DE,48.353802,11.7861,1
-ZIA,Moscow,,Russian Federation,RU,55.553299,38.150002,3
-CDG,Paris,,France,FR,49.012798,2.55,8
+ZIA,Moscow,,Russian Federation,RU,55.553299,38.150002,1
+CDG,Paris,,France,FR,49.012798,2.55,1
 PRG,Prague,,Czech Republic,CZ,50.1008,14.26,1
 CIA,Rome,,Italy,IT,41.7994,12.5949,1
-LED,St. Petersburg,,Russian Federation,RU,59.80030059814453,30.262500762939453,2
+LED,St. Petersburg,,Russian Federation,RU,59.80030059814453,30.262500762939453,1
 SOF,Sofia,,Bulgaria,BG,42.696693420410156,23.411436080932617,1
-ARN,Stockholm,,Sweden,SE,59.651901245117,17.918600082397,3
-WMI,Warsaw,,Poland,PL,52.451099,20.6518,2
+ARN,Stockholm,,Sweden,SE,59.651901245117,17.918600082397,1
+WMI,Warsaw,,Poland,PL,52.451099,20.6518,1
 ZAG,Zagreb,,Croatia,HR,45.7429008484,16.0687999725,1
-ZRH,Zurich,,Switzerland,CH,47.464699,8.54917,4
-FJR,Fujairah,,United Arab Emirates,AE,25.112222,56.324167,3
+ZRH,Zurich,,Switzerland,CH,47.464699,8.54917,1
+FJR,Fujairah,,United Arab Emirates,AE,25.112222,56.324167,1
 MCT,Muscat,,Oman,OM,23.593299865722656,58.284400939941406,1
-MAA,Chennai,,India,IN,12.990005493164062,80.16929626464844,3
-HKG,Hong Kong,,Hong Kong,HK,22.308901,113.915001,3
-CGK,Jakarta,,Indonesia,ID,-6.1255698204,106.65599823,4
-KUL,Kuala Lumpur,,Malaysia,MY,2.745579957962,101.70999908447,2
-DEL,New Delhi,,India,IN,28.5665,77.103104,3
-KIX,Osaka,,Japan,JP,34.42729949951172,135.24400329589844,2
-BOM,Mumbai,,India,IN,19.0886993408,72.8678970337,2
-ICN,Seoul,,Korea, Republic of,KR,37.46910095214844,126.45099639892578,4
-SIN,Singapore,,Singapore,SG,1.35019,103.994003,3
-TPE,Taipei,,Taiwan, Province of China,TW,25.0777,121.233002,4
-NRT,Tokyo,,Japan,JP,35.764702,140.386002,7
-SYD,Sydney,,Australia,AU,-33.94609832763672,151.177001953125,3
-MEL,Melbourne,,Australia,AU,-37.673302,144.843002,2
+MAA,Chennai,,India,IN,12.990005493164062,80.16929626464844,1
+HKG,Hong Kong,,Hong Kong,HK,22.308901,113.915001,1
+CGK,Jakarta,,Indonesia,ID,-6.1255698204,106.65599823,1
+KUL,Kuala Lumpur,,Malaysia,MY,2.745579957962,101.70999908447,1
+DEL,New Delhi,,India,IN,28.5665,77.103104,1
+KIX,Osaka,,Japan,JP,34.42729949951172,135.24400329589844,1
+BOM,Mumbai,,India,IN,19.0886993408,72.8678970337,1
+ICN,Seoul,,Korea, Republic of,KR,37.46910095214844,126.45099639892578,1
+SIN,Singapore,,Singapore,SG,1.35019,103.994003,1
+TPE,Taipei,,Taiwan, Province of China,TW,25.0777,121.233002,1
+NRT,Tokyo,,Japan,JP,35.764702,140.386002,1
+SYD,Sydney,,Australia,AU,-33.94609832763672,151.177001953125,1
+MEL,Melbourne,,Australia,AU,-37.673302,144.843002,1
 JNB,Johannesburg,,South Africa,ZA,-26.1392,28.246,1
 MBA,Mombasa,,Kenya,KE,-4.034830093383789,39.594200134277344,1
-LOS,Lagos,,Nigeria,NG,6.5773701667785645,3.321160078048706,2
+LOS,Lagos,,Nigeria,NG,6.5773701667785645,3.321160078048706,1
 ```
 
 ### JSON lookup
@@ -172,7 +173,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "US",
     "latitude": 38.94449997,
     "longitude": -77.45580292,
-    "count": 2
+    "count": 1
   },
   "ATL": {
     "city": "Atlanta",
@@ -181,7 +182,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "US",
     "latitude": 33.6367,
     "longitude": -84.428101,
-    "count": 3
+    "count": 1
   },
   "MDW": {
     "city": "Chicago",
@@ -190,7 +191,16 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "US",
     "latitude": 41.785999,
     "longitude": -87.752403,
-    "count": 2
+    "count": 1
+  },
+  "CMH": {
+    "city": "Columbus",
+    "state": "Ohio",
+    "country": "United States",
+    "countryCode": "US",
+    "latitude": 39.998001,
+    "longitude": -82.891899,
+    "count": 1
   },
   "DEN": {
     "city": "Denver",
@@ -199,7 +209,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "US",
     "latitude": 39.861698150635,
     "longitude": -104.672996521,
-    "count": 2
+    "count": 1
   },
   "DAL": {
     "city": "Dallas",
@@ -208,7 +218,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "US",
     "latitude": 32.847099,
     "longitude": -96.851799,
-    "count": 3
+    "count": 1
   },
   "LAX": {
     "city": "Los Angeles",
@@ -217,7 +227,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "US",
     "latitude": 33.942501,
     "longitude": -118.407997,
-    "count": 3
+    "count": 1
   },
   "MIA": {
     "city": "Miami",
@@ -226,7 +236,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "US",
     "latitude": 25.79319953918457,
     "longitude": -80.29060363769531,
-    "count": 2
+    "count": 1
   },
   "YUL": {
     "city": "Montreal",
@@ -244,7 +254,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "US",
     "latitude": 40.639801,
     "longitude": -73.7789,
-    "count": 3
+    "count": 1
   },
   "PAO": {
     "city": "Palo Alto",
@@ -271,7 +281,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "US",
     "latitude": 47.529998779296875,
     "longitude": -122.302001953125,
-    "count": 3
+    "count": 1
   },
   "QRO": {
     "city": "Querétaro",
@@ -280,7 +290,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "MX",
     "latitude": 20.6173,
     "longitude": -100.185997,
-    "count": 2
+    "count": 1
   },
   "YYZ": {
     "city": "Toronto",
@@ -289,7 +299,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "CA",
     "latitude": 43.6772003174,
     "longitude": -79.63059997559999,
-    "count": 2
+    "count": 1
   },
   "BOG": {
     "city": "Bogota",
@@ -298,7 +308,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "CO",
     "latitude": 4.70159,
     "longitude": -74.1469,
-    "count": 2
+    "count": 1
   },
   "EZE": {
     "city": "Buenos Aires",
@@ -334,7 +344,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "BR",
     "latitude": -23.435556411743164,
     "longitude": -46.47305679321289,
-    "count": 5
+    "count": 1
   },
   "AMS": {
     "city": "Amsterdam",
@@ -343,7 +353,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "NL",
     "latitude": 52.308601,
     "longitude": 4.76389,
-    "count": 5
+    "count": 1
   },
   "BUD": {
     "city": "Budapest",
@@ -370,7 +380,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "IE",
     "latitude": 53.421299,
     "longitude": -6.27007,
-    "count": 2
+    "count": 1
   },
   "FRA": {
     "city": "Frankfurt am Main",
@@ -379,7 +389,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "DE",
     "latitude": 50.033333,
     "longitude": 8.570556,
-    "count": 2
+    "count": 1
   },
   "HAM": {
     "city": "Hamburg",
@@ -388,7 +398,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "DE",
     "latitude": 53.630401611328,
     "longitude": 9.9882297515869,
-    "count": 3
+    "count": 1
   },
   "KBP": {
     "city": "Kiev",
@@ -397,7 +407,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "UA",
     "latitude": 50.345001220703125,
     "longitude": 30.894699096679688,
-    "count": 3
+    "count": 1
   },
   "LIS": {
     "city": "Lisbon",
@@ -415,7 +425,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "GB",
     "latitude": 51.874698638916016,
     "longitude": -0.36833301186561584,
-    "count": 7
+    "count": 1
   },
   "MAD": {
     "city": "Madrid",
@@ -424,7 +434,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "ES",
     "latitude": 40.471926,
     "longitude": -3.56264,
-    "count": 2
+    "count": 1
   },
   "MRS": {
     "city": "Marseille",
@@ -442,7 +452,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "IT",
     "latitude": 45.6306,
     "longitude": 8.72811,
-    "count": 2
+    "count": 1
   },
   "MUC": {
     "city": "Munich",
@@ -460,7 +470,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "RU",
     "latitude": 55.553299,
     "longitude": 38.150002,
-    "count": 3
+    "count": 1
   },
   "CDG": {
     "city": "Paris",
@@ -469,7 +479,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "FR",
     "latitude": 49.012798,
     "longitude": 2.55,
-    "count": 8
+    "count": 1
   },
   "PRG": {
     "city": "Prague",
@@ -496,7 +506,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "RU",
     "latitude": 59.80030059814453,
     "longitude": 30.262500762939453,
-    "count": 2
+    "count": 1
   },
   "SOF": {
     "city": "Sofia",
@@ -514,7 +524,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "SE",
     "latitude": 59.651901245117,
     "longitude": 17.918600082397,
-    "count": 3
+    "count": 1
   },
   "WMI": {
     "city": "Warsaw",
@@ -523,7 +533,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "PL",
     "latitude": 52.451099,
     "longitude": 20.6518,
-    "count": 2
+    "count": 1
   },
   "ZAG": {
     "city": "Zagreb",
@@ -541,7 +551,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "CH",
     "latitude": 47.464699,
     "longitude": 8.54917,
-    "count": 4
+    "count": 1
   },
   "FJR": {
     "city": "Fujairah",
@@ -550,7 +560,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "AE",
     "latitude": 25.112222,
     "longitude": 56.324167,
-    "count": 3
+    "count": 1
   },
   "MCT": {
     "city": "Muscat",
@@ -568,7 +578,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "IN",
     "latitude": 12.990005493164062,
     "longitude": 80.16929626464844,
-    "count": 3
+    "count": 1
   },
   "HKG": {
     "city": "Hong Kong",
@@ -577,7 +587,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "HK",
     "latitude": 22.308901,
     "longitude": 113.915001,
-    "count": 3
+    "count": 1
   },
   "CGK": {
     "city": "Jakarta",
@@ -586,7 +596,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "ID",
     "latitude": -6.1255698204,
     "longitude": 106.65599823,
-    "count": 4
+    "count": 1
   },
   "KUL": {
     "city": "Kuala Lumpur",
@@ -595,7 +605,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "MY",
     "latitude": 2.745579957962,
     "longitude": 101.70999908447,
-    "count": 2
+    "count": 1
   },
   "DEL": {
     "city": "New Delhi",
@@ -604,7 +614,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "IN",
     "latitude": 28.5665,
     "longitude": 77.103104,
-    "count": 3
+    "count": 1
   },
   "KIX": {
     "city": "Osaka",
@@ -613,7 +623,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "JP",
     "latitude": 34.42729949951172,
     "longitude": 135.24400329589844,
-    "count": 2
+    "count": 1
   },
   "BOM": {
     "city": "Mumbai",
@@ -622,7 +632,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "IN",
     "latitude": 19.0886993408,
     "longitude": 72.8678970337,
-    "count": 2
+    "count": 1
   },
   "ICN": {
     "city": "Seoul",
@@ -631,7 +641,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "KR",
     "latitude": 37.46910095214844,
     "longitude": 126.45099639892578,
-    "count": 4
+    "count": 1
   },
   "SIN": {
     "city": "Singapore",
@@ -640,7 +650,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "SG",
     "latitude": 1.35019,
     "longitude": 103.994003,
-    "count": 3
+    "count": 1
   },
   "TPE": {
     "city": "Taipei",
@@ -649,7 +659,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "TW",
     "latitude": 25.0777,
     "longitude": 121.233002,
-    "count": 4
+    "count": 1
   },
   "NRT": {
     "city": "Tokyo",
@@ -658,7 +668,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "JP",
     "latitude": 35.764702,
     "longitude": 140.386002,
-    "count": 7
+    "count": 1
   },
   "SYD": {
     "city": "Sydney",
@@ -667,7 +677,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "AU",
     "latitude": -33.94609832763672,
     "longitude": 151.177001953125,
-    "count": 3
+    "count": 1
   },
   "MEL": {
     "city": "Melbourne",
@@ -676,7 +686,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "AU",
     "latitude": -37.673302,
     "longitude": 144.843002,
-    "count": 2
+    "count": 1
   },
   "JNB": {
     "city": "Johannesburg",
@@ -703,7 +713,7 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "NG",
     "latitude": 6.5773701667785645,
     "longitude": 3.321160078048706,
-    "count": 2
+    "count": 1
   }
 }
 ```
