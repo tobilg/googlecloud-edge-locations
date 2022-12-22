@@ -89,7 +89,7 @@ const run = async () => {
 
   const data = await page.evaluate(() => {
     const cities = [];
-    const rawCities = document.evaluate('//html/body/section/section/main/devsite-content/article/div[2]/ul[position() < 8]/li', document);
+    const rawCities = document.evaluate('//html/body/section/section/main/devsite-content/article/div[2]/ul[position() > 1 and position() < 9]/li', document);
 
     // First iterator
     let citiesIterator = rawCities.iterateNext();

@@ -503,6 +503,15 @@
     "longitude": 38.150002,
     "count": 1
   },
+  "OSL": {
+    "city": "Oslo",
+    "state": null,
+    "country": "Norway",
+    "countryCode": "NO",
+    "latitude": 60.193901062012,
+    "longitude": 11.100399971008,
+    "count": 1
+  },
   "CDG": {
     "city": "Paris",
     "state": null,
@@ -627,6 +636,15 @@
     "countryCode": "IL",
     "latitude": 32.01139831542969,
     "longitude": 34.88669967651367,
+    "count": 1
+  },
+  "DMK": {
+    "city": "Bangkok",
+    "state": null,
+    "country": "Thailand",
+    "countryCode": "TH",
+    "latitude": 13.9125995636,
+    "longitude": 100.607002258,
     "count": 1
   },
   "PUS": {

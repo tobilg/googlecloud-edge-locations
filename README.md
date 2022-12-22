@@ -39,13 +39,13 @@ const location = el.lookup('IAD');
 const invalid = el.lookup('FOO'); // returns false
 
 // Get edge location count
-const locationCount = el.getLocationCount(); // returns 61
+const locationCount = el.getLocationCount(); // returns 96
 
 // Get all edge locations
 const locations = el.getLocations();
 
 // Get PoP count
-const popCount = el.getPoPCount() // returns 61
+const popCount = el.getPoPCount() // returns 96
 ```
 
 ### Browser
@@ -153,6 +153,7 @@ MRS,Marseille,,France,FR,43.439271922,5.22142410278,1
 MXP,Milan,,Italy,IT,45.6306,8.72811,1
 MUC,Munich,,Germany,DE,48.353802,11.7861,1
 ZIA,Moscow,,Russian Federation,RU,55.553299,38.150002,1
+OSL,Oslo,,Norway,NO,60.193901062012,11.100399971008,1
 CDG,Paris,,France,FR,49.012798,2.55,1
 PRG,Prague,,Czech Republic,CZ,50.1008,14.26,1
 CIA,Rome,,Italy,IT,41.7994,12.5949,1
@@ -167,6 +168,7 @@ DXB,Dubai,,United Arab Emirates,AE,25.2527999878,55.3643989563,1
 FJR,Fujairah,,United Arab Emirates,AE,25.112222,56.324167,1
 MCT,Muscat,,Oman,OM,23.593299865722656,58.284400939941406,1
 TLV,Tel Aviv,,Israel,IL,32.01139831542969,34.88669967651367,1
+DMK,Bangkok,,Thailand,TH,13.9125995636,100.607002258,1
 PUS,Busan,,Korea, Republic of,KR,35.1795005798,128.93800354,1
 MAA,Chennai,,India,IN,12.990005493164062,80.16929626464844,1
 DEL,New Delhi,,India,IN,28.5665,77.103104,1
@@ -703,6 +705,15 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "longitude": 38.150002,
     "count": 1
   },
+  "OSL": {
+    "city": "Oslo",
+    "state": null,
+    "country": "Norway",
+    "countryCode": "NO",
+    "latitude": 60.193901062012,
+    "longitude": 11.100399971008,
+    "count": 1
+  },
   "CDG": {
     "city": "Paris",
     "state": null,
@@ -827,6 +838,15 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "countryCode": "IL",
     "latitude": 32.01139831542969,
     "longitude": 34.88669967651367,
+    "count": 1
+  },
+  "DMK": {
+    "city": "Bangkok",
+    "state": null,
+    "country": "Thailand",
+    "countryCode": "TH",
+    "latitude": 13.9125995636,
+    "longitude": 100.607002258,
     "count": 1
   },
   "PUS": {
