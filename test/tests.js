@@ -33,14 +33,14 @@ describe("# Testing the googlecloud-edge-locations functionality", function() {
     it("should return the correct count of locations", function (done) {
       const el = new GoogleCloudEdgeLocations();
 
-      el.getLocationCount().should.eql(96);
+      el.getLocationCount().should.eql(97);
       done();
     });
 
     it("should return the correct count of Edge Locations", function (done) {
       const el = new GoogleCloudEdgeLocations();
 
-      el.getPoPCount().should.eql(96);
+      el.getPoPCount().should.eql(97);
       done();
     });
   });

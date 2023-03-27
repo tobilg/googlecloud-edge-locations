@@ -1,6 +1,6 @@
 {
   "name": "googlecloud-edge-locations",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "List of cloud.google.com edge locations",
   "main": "umd/googlecloud-edge-locations.min.js",
   "module": "src/index.js",

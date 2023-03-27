@@ -566,6 +566,15 @@
     "longitude": 17.918600082397,
     "count": 1
   },
+  "TRN": {
+    "city": "Torino",
+    "state": null,
+    "country": "Italy",
+    "countryCode": "IT",
+    "latitude": 45.200802,
+    "longitude": 7.64963,
+    "count": 1
+  },
   "VIE": {
     "city": "Vienna",
     "state": null,
@@ -683,13 +692,13 @@
     "longitude": 113.915001,
     "count": 1
   },
-  "null": {
+  "HSZ": {
     "city": "Hsinchu",
     "state": null,
     "country": "Taiwan, Province of China",
     "countryCode": "TW",
-    "latitude": 24.816245,
-    "longitude": 120.96203,
+    "latitude": 24.8180007935,
+    "longitude": 120.939002991,
     "count": 1
   },
   "HYD": {

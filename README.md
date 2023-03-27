@@ -39,13 +39,13 @@ const location = el.lookup('IAD');
 const invalid = el.lookup('FOO'); // returns false
 
 // Get edge location count
-const locationCount = el.getLocationCount(); // returns 96
+const locationCount = el.getLocationCount(); // returns 97
 
 // Get all edge locations
 const locations = el.getLocations();
 
 // Get PoP count
-const popCount = el.getPoPCount() // returns 96
+const popCount = el.getPoPCount() // returns 97
 ```
 
 ### Browser
@@ -160,6 +160,7 @@ CIA,Rome,,Italy,IT,41.7994,12.5949,1
 LED,St. Petersburg,,Russian Federation,RU,59.80030059814453,30.262500762939453,1
 SOF,Sofia,,Bulgaria,BG,42.696693420410156,23.411436080932617,1
 ARN,Stockholm,,Sweden,SE,59.651901245117,17.918600082397,1
+TRN,Torino,,Italy,IT,45.200802,7.64963,1
 VIE,Vienna,,Austria,AT,48.110298156738,16.569700241089,1
 WMI,Warsaw,,Poland,PL,52.451099,20.6518,1
 ZAG,Zagreb,,Croatia,HR,45.7429008484,16.0687999725,1
@@ -173,7 +174,7 @@ PUS,Busan,,Korea, Republic of,KR,35.1795005798,128.93800354,1
 MAA,Chennai,,India,IN,12.990005493164062,80.16929626464844,1
 DEL,New Delhi,,India,IN,28.5665,77.103104,1
 HKG,Hong Kong,,Hong Kong,HK,22.308901,113.915001,1
-null,Hsinchu,,Taiwan, Province of China,TW,24.816245,120.96203,1
+HSZ,Hsinchu,,Taiwan, Province of China,TW,24.8180007935,120.939002991,1
 HYD,Hyderabad,,India,IN,17.231318,78.429855,1
 CGK,Jakarta,,Indonesia,ID,-6.1255698204,106.65599823,1
 CCU,Kolkata,,India,IN,22.654699325561523,88.44670104980469,1
@@ -768,6 +769,15 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "longitude": 17.918600082397,
     "count": 1
   },
+  "TRN": {
+    "city": "Torino",
+    "state": null,
+    "country": "Italy",
+    "countryCode": "IT",
+    "latitude": 45.200802,
+    "longitude": 7.64963,
+    "count": 1
+  },
   "VIE": {
     "city": "Vienna",
     "state": null,
@@ -885,13 +895,13 @@ The JSON version of the data can be found at [dist/googlecloud-edge-locations.js
     "longitude": 113.915001,
     "count": 1
   },
-  "null": {
+  "HSZ": {
     "city": "Hsinchu",
     "state": null,
     "country": "Taiwan, Province of China",
     "countryCode": "TW",
-    "latitude": 24.816245,
-    "longitude": 120.96203,
+    "latitude": 24.8180007935,
+    "longitude": 120.939002991,
     "count": 1
   },
   "HYD": {
